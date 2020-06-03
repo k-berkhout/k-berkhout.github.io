@@ -7,3 +7,7 @@
 - Portfolio
 - Blog articles
 - Code & visualization examples
+
+[For more articles written by me visit the UNIR University Blog](http://alumnos.unir.net/kathelijneberkhout/)
+
+
