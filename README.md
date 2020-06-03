@@ -2,7 +2,7 @@
 
 > Personal Website with contact information
 
-**Work in progress, items to be included**
+**Work in progress, items to be included:**
 
 - Portfolio
 - Blog articles
