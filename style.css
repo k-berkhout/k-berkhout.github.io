@@ -1,0 +1,149 @@
+/* # BODY STYLES */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* # IMAGE STYLES */
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+}
+.avatar {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.fa{
+  color: #294183;
+}
+
+/* # HEADER STYLES */
+header {
+  background: #294183;
+  padding: 10px 0px;
+  text-align: center;
+}
+header h1 {
+  font-size: 4ex;
+  color: white;
+  margin: 0px 0;
+}
+
+/* # NAVIGATION MENU STYLES */
+nav {
+  background: #93c2d8;
+  margin: 0px;
+  padding: 0px;
+}
+nav a,
+nav a:visited,
+nav a:active {
+  color: #294183;
+  text-decoration: none;
+}
+article {
+  padding: 15px;
+}
+article h1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.container {  
+  max-width: 768px;
+  min-width: 324px;
+  margin: 50px auto 0px;
+}
+
+/* # COLUMNS MAIN PAGE */
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+
+/* # LIST STYLES */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px 15px;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+}
+nav ul li:hover {
+  background: #294183;
+}
+nav ul li:hover a {
+  color: white;
+}
+
+.wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.wrapper p,
+.wrapper ul
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.wrapper p{
+    line-height: 22px;
+    font-size: 2ex;
+} 
+
+/* # FOOTER STYLES */
+footer {
+  background: #f0f0f0;
+  color: #656565;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* # CONTACT.WRAPPER STYLES */
+.contact.wrapper ul {
+    list-style: none;
+    padding: 0;
+  }
+ul li {
+    display: inline-block;
+    padding: 20px 15px;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  /* # FORM STYLE */
+ .btn-submit {
+    transition-duration: 0.4s;
+    }
+
+  .btn-submit:hover { 
+      background-color: #93c2d8;
+      color:#294183;
+    }
+
+/* # RESPONSIVE */
+    @media (min-width:600px){
+      h1{ 
+        color: #93c2d8;
+      }
+      }
+
+/* HIDE H1 IF SCREEN IS LESS THAN 600px */
+@media screen and (max-width: 600px) {
+  header h1 {
+    display: none;
+  }
+}
